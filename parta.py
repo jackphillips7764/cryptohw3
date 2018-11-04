@@ -33,6 +33,7 @@ def encrypt(mes):
     x = pow(x, 2, n)
     return msg, x
 
+#cool func
 def decrypt(cipher, x, t):
     k = int(math.floor(math.log(p*q,2)))
     h = int(math.floor(math.log(k,2)))
