@@ -1,5 +1,6 @@
 import math
 
+
 #define vars:
 p = 499
 q = 547
